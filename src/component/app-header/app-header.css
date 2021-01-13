@@ -1,0 +1,18 @@
+.root__app-header {
+  align-items: flex-end;
+  display: flex;
+}
+
+.root__app-header h1 {
+  flex-grow: 1;
+}
+
+.root__app-header h2 {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.app-header__todo-list {
+  display: flex;
+  justify-content: center;
+}
