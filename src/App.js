@@ -1,20 +1,11 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.scss';
+import Todo from './modules/Todo/Todo.jsx'
 
-import AppHeader from "./component/app-header/app-header";
-import Todos from "./component/todos/todos";
-import TodoInput from "./component/todo-input/todo-input";
-
-const App = () => {
+function App() {
   return (
-    <div className="root__todo-app">
-      <div>
-        <AppHeader />
-        <TodoInput />
-        <Todos />
-      </div>
-    </div>
+    <Todo/>
   );
-};
+}
 
 export default App;
